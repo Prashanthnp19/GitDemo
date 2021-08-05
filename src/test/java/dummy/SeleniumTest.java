@@ -6,6 +6,7 @@ public class SeleniumTest {
 	@Test
 	public void Browsertest() {
 		System.out.println("Browser test");
+		System.out.println("Chrome Browser");
 	}
 	
 	@Test 
