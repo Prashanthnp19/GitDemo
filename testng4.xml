@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelTestSuite" parallel="tests">
+	<test thread-count="5" name="ApiDemosTest">
+		<classes>
+			<class name="cloud.ApiDemoTest" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="ECommerceTest">
+		<classes>
+			<class name="cloud.GeneralStoreAppTest" />
+		</classes>
+	</test>
+</suite>

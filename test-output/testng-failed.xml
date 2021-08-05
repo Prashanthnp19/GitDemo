@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ParallelTestSuite]" parallel="tests">
+  <test thread-count="5" name="ECommerceTest(failed)" parallel="tests">
+    <classes>
+      <class name="Appium_Automation.GeneralStoreAppTest">
+        <methods>
+          <include name="killAllNodes"/>
+          <include name="homeScreenTest"/>
+        </methods>
+      </class> <!-- Appium_Automation.GeneralStoreAppTest -->
+    </classes>
+  </test> <!-- ECommerceTest(failed) -->
+  <test thread-count="5" name="ApiDemosTest(failed)" parallel="tests">
+    <classes>
+      <class name="Appium_Automation.ApiDemoTest">
+        <methods>
+          <include name="closeEmulator"/>
+          <include name="ApiDemosApp" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Appium_Automation.ApiDemoTest -->
+    </classes>
+  </test> <!-- ApiDemosTest(failed) -->
+</suite> <!-- Failed suite [ParallelTestSuite] -->
