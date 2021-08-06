@@ -6,11 +6,13 @@ public class RESTAPITest {
 	@Test
 	public void login() {
 		System.out.println("Login API");
-		
+
 	}
-	
-	@Test 
+
+	@Test
 	public void logout() {
+
 		System.out.println("Login.... API");
+
 	}
 }
