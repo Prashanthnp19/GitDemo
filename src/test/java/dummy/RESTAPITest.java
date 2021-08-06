@@ -11,7 +11,6 @@ public class RESTAPITest {
 	
 	@Test 
 	public void logout() {
-		System.out.println("Logout API");
-		
+		System.out.println("Login.... API");
 	}
 }
