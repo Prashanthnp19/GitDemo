@@ -6,8 +6,6 @@ public class RESTAPITest {
 	@Test
 	public void login() {
 		System.out.println("Login API");
-		System.out.println("Login API from Web application");
-
 		
 	}
 	

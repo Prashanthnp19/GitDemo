@@ -6,12 +6,11 @@ public class SeleniumTest {
 	@Test
 	public void Browsertest() {
 		System.out.println("Browser test");
-		System.out.println("Chrome Browser");
 	}
 	
-	@Test
-	public void AndroidTest() {
-		System.out.println("android test");
-		System.out.println("test Browser");
+	@Test 
+	public void elementsUI() {
+		System.out.println("ElementsUI test");
+		System.out.println("Web API test");
 	}
 }
